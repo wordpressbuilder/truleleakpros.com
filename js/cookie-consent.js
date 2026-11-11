@@ -46,7 +46,7 @@
   var more = document.createElement("a");
   more.href = "/pages/about/";
   more.textContent = "Learn more";
-  more.style.cssText = "color:#8a03a1;text-decoration:underline;";
+  more.style.cssText = "color:#F59E0B;text-decoration:underline;";
   msg.appendChild(more);
 
   var btns = document.createElement("div");
@@ -55,7 +55,7 @@
   var ok = document.createElement("button");
   ok.type = "button";
   ok.textContent = "Accept";
-  ok.style.cssText = "background:#270E76;color:#fff;border:none;padding:10px 24px;border-radius:50px;cursor:pointer;font-weight:700;";
+  ok.style.cssText = "background:#0E4C5C;color:#fff;border:none;padding:10px 24px;border-radius:50px;cursor:pointer;font-weight:700;";
   ok.addEventListener("click", function () { choose(true); });
 
   var no = document.createElement("button");

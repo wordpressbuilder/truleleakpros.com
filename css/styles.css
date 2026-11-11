@@ -4,9 +4,9 @@
    ============================================================ */
 
 :root {
-    --primary:     #270E76;
-    --secondary:   #3E14B8;
-    --accent:      #8a03a1;
+    --primary:     #0E4C5C;
+    --secondary:   #177E89;
+    --accent:      #F59E0B;
     --gold:        #D4AF37;
     --gold-secondary: #B8960C;
     --gold-text:   #7A5C00;
@@ -177,10 +177,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 /* diagonal_split: asli tirchi line — heading TOP-LEFT, form BOTTOM-RIGHT,
    accent diagonal band overlay ke andar (hard-stop gradient = crisp line) */
 #v360-wrapper .hero.hv-diagonal_split .hero-overlay {
-    background: linear-gradient(115deg,
-        rgba(15,23,42,.96) 0%, rgba(15,23,42,.93) 51.5%,
-        var(--accent) 51.5%, var(--accent) 52.3%,
-        rgba(15,23,42,.30) 52.3%, rgba(15,23,42,.12) 100%);
+    background: rgba(15,23,42,.96);
 }
 #v360-wrapper .hero.hv-diagonal_split { min-height: 680px; }
 #v360-wrapper .hero.hv-diagonal_split .hero-content { align-items: stretch; }
@@ -204,7 +201,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
     #v360-wrapper .hero.hv-diagonal_split .text-col { padding-bottom: 20px; }
     #v360-wrapper .hero.hv-diagonal_split .form-col { margin-top: 10px; }
     #v360-wrapper .hero.hv-diagonal_split .hero-overlay {
-        background: linear-gradient(160deg, rgba(15,23,42,.95) 0%, rgba(15,23,42,.88) 100%);
+        background: rgba(15,23,42,.95);
     }
 }
 
@@ -212,7 +209,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 #v360-wrapper .form-col { position: relative; }
 #v360-wrapper .di-float-badge {
     position: absolute; top: -18px; right: -10px; z-index: 5;
-    background: linear-gradient(135deg, var(--accent), #270E76);
+    background: var(--accent);
     color: #fff; border-radius: 14px; padding: 10px 16px; text-align: center;
     box-shadow: 0 12px 28px rgba(0,0,0,.28);
     animation: di-float 4s ease-in-out infinite;
@@ -225,7 +222,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 
 /* ── NICHE-SPECIFIC TRUST BADGE ── */
 #v360-wrapper .hero-gold-badge {
-    background: linear-gradient(135deg, var(--accent) 0%, #270E76 100%);
+    background: var(--accent);
     color: white;
     padding: 8px 22px;
     border-radius: 30px;
@@ -253,7 +250,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 }
 
 #v360-wrapper .btn-primary {
-    background: #270E76;
+    background: #0E4C5C;
     color: white;
     box-shadow: 0 4px 18px rgba(0,0,0,0.25);
 }
@@ -265,8 +262,8 @@ h1, h2, h3 { font-family: var(--font-primary); }
 }
 
 #v360-wrapper .btn-accent {
-    background: #8a03a1;
-    color: #270E76;
+    background: #F59E0B;
+    color: #0E4C5C;
     box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
@@ -304,7 +301,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 #v360-wrapper .glass-card button {
     width: 100%;
     padding: 15px;
-    background: #270E76;
+    background: #0E4C5C;
     color: white;
     border: none;
     border-radius: 10px;
@@ -334,7 +331,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
     overflow: hidden;
     box-shadow: 0 4px 16px rgba(0,0,0,0.07);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-top: 3px solid #270E76;
+    border-top: 3px solid #0E4C5C;
     border-left: 1px solid #e2e8f0;
     border-right: 1px solid #e2e8f0;
     border-bottom: 1px solid #e2e8f0;
@@ -367,7 +364,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 #v360-wrapper .service-card h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #270E76;
+    color: #0E4C5C;
     font-family: var(--font-primary);
 }
 
@@ -390,7 +387,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
     flex-shrink: 0;
     width: 60px; height: 60px;
     border-radius: 14px;
-    background: linear-gradient(135deg, #8a03a1 0%, #270E76 100%);
+    background: #F59E0B;
     display: flex; align-items: center; justify-content: center;
     color: white;
 }
@@ -404,7 +401,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 }
 #v360-wrapper .service-card.cv-minimal_border:hover {
     box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-    border-color: #270E76;
+    border-color: #0E4C5C;
     transform: translateY(-4px);
 }
 #v360-wrapper .service-card.cv-minimal_border .service-card-img { height: 170px; }
@@ -439,7 +436,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 
 #v360-wrapper .infographic-icon {
     width: 80px; height: 80px;
-    background: linear-gradient(135deg, #8a03a1 0%, #270E76 100%);
+    background: #F59E0B;
     border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
     margin: 0 auto 20px;
@@ -449,7 +446,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 
 #v360-wrapper .infographic-number {
     font-size: 2.5rem; font-weight: 800;
-    background: linear-gradient(135deg, #270E76 0%, #3E14B8 100%);
+    background: #0E4C5C;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
@@ -468,14 +465,14 @@ h1, h2, h3 { font-family: var(--font-primary); }
        desktop row look broken. Stretching lets the image fill the row instead. */
     display: flex; align-items: stretch; gap: 50px; margin-bottom: 40px;
     padding: 28px 32px; border-radius: 16px;
-    background: #270E760d;
-    border-left: 4px solid #270E76;
+    background: #0E4C5C0d;
+    border-left: 4px solid #0E4C5C;
 }
 #v360-wrapper .zigzag-item.reverse {
     flex-direction: row-reverse;
-    background: #3E14B80d;
+    background: #177E890d;
     border-left: none;
-    border-right: 4px solid #3E14B8;
+    border-right: 4px solid #177E89;
 }
 #v360-wrapper .zigzag-content, #v360-wrapper .zigzag-img-wrap { flex: 1; min-width: 0; }
 /* with the row stretched, short copy would sit at the top of a tall row */
@@ -491,11 +488,11 @@ h1, h2, h3 { font-family: var(--font-primary); }
     color: var(--text-dark); line-height: 1.6;
 }
 #v360-wrapper .zigzag-bullets li .zb-check {
-    color: #270E76; font-weight: 700; font-size: 1rem;
+    color: #0E4C5C; font-weight: 700; font-size: 1rem;
     flex-shrink: 0; margin-top: 2px;
 }
 #v360-wrapper .zigzag-item.reverse .zigzag-bullets li .zb-check {
-    color: #3E14B8;
+    color: #177E89;
 }
 
 #v360-wrapper .zigzag-img {
@@ -546,7 +543,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 #v360-wrapper .gs-skin-2 .service-card { border: none; box-shadow: 0 14px 34px rgba(15,23,42,.09); border-radius: 18px; }
 #v360-wrapper .zigzag-content h3 {
     font-size: 1.9rem; margin-bottom: 20px;
-    color: #270E76; font-family: var(--font-primary);
+    color: #0E4C5C; font-family: var(--font-primary);
 }
 
 /* ── FAQ ── */
@@ -573,7 +570,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 #v360-wrapper .review-card {
     background: white; padding: 28px;
     border-radius: 14px; margin-bottom: 20px;
-    border-left: 5px solid #270E76;
+    border-left: 5px solid #0E4C5C;
     box-shadow: var(--shadow-sm);
 }
 
@@ -590,9 +587,9 @@ h1, h2, h3 { font-family: var(--font-primary); }
 
 /* ── INTERNAL LINKS ── */
 #v360-wrapper .internal-links-section {
-    background: linear-gradient(135deg, #270E7608 0%, white 100%);
+    background: #0E4C5C08;
     border-radius: 20px; padding: 40px;
-    margin: 40px 0; border: 1px solid #270E7622;
+    margin: 40px 0; border: 1px solid #0E4C5C22;
 }
 #v360-wrapper .internal-links-grid {
     display: grid;
@@ -609,8 +606,8 @@ h1, h2, h3 { font-family: var(--font-primary); }
     transition: all 0.3s; font-weight: 500;
 }
 #v360-wrapper .pill:hover {
-    background: #270E76; color: white;
-    border-color: #270E76; transform: translateY(-2px);
+    background: #0E4C5C; color: white;
+    border-color: #0E4C5C; transform: translateY(-2px);
 }
 
 /* ── MOBILE ── */
@@ -652,7 +649,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
     #v360-wrapper .zigzag-item.reverse {
         flex-direction: column !important; gap: 20px !important;
         margin-bottom: 20px !important; padding: 20px 18px !important;
-        border-right: none !important; border-left: 4px solid #270E76 !important;
+        border-right: none !important; border-left: 4px solid #0E4C5C !important;
     }
     #v360-wrapper .zigzag-img { height: auto !important; min-height: 200px !important; max-height: 280px !important; }
     #v360-wrapper .service-grid,
@@ -754,7 +751,7 @@ h1, h2, h3 { font-family: var(--font-primary); }
 #v360-wrapper .section:last-of-type::after { display: none; }
 #v360-wrapper .section { padding-bottom: 84px; }
 /* ppcx-layout */
-:root{--primary-rgb:39,14,118}
+:root{--primary-rgb:14,76,92}
 .ppcx-sec{padding:56px 0}
 .ppcx-head{margin:0 0 6px;font-size:clamp(1.5rem,3vw,2rem);color:var(--primary);font-weight:800}
 .ppcx-sub{margin:0 0 28px;color:#64748b;font-size:1rem;max-width:62ch;line-height:1.6}
